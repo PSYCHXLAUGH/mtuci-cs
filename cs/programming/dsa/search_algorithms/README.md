@@ -1,5 +1,4 @@
-# [Introduction](https://drive.google.com/file/d/1MhcU5B1OFkIR8pKaWp18bNiRYea3iB8N/view)
-# [Video](https://www.youtube.com/watch?v=aWy0-bGZk3U&list=PLtNPgSbW9TX7acrQa2LeBAMGxO5WRAVsz&index=1)
+# [Introduction](https://drive.google.com/file/d/1MhcU5B1OFkIR8pKaWp18bNiRYea3iB8N/view) & [Video](https://www.youtube.com/watch?v=aWy0-bGZk3U&list=PLtNPgSbW9TX7acrQa2LeBAMGxO5WRAVsz&index=1)
 
 # What is a search?
 - Finding a specific value among a regular set or a multiset using a “search key” for this purpose
@@ -21,7 +20,7 @@ print(multiset)
 - There must be an equivalence relation for the set of “keys”, which is denoted by the tilde sign
 #### The following conditions must be met for any keys
 1. Reflexivity 
-####  (a, a) ∈ R
+#### (a, a) ∈ R
 ```python
 R = {(1, 1), (2, 2), (3, 3)}
 ```
@@ -31,14 +30,14 @@ R = {(1, 1), (2, 2), (3, 3)}
 R = {(1, 2), (2, 1)}
 ```
 3. Transitivity
-### (a, b) ∈ R and (b, c) ∈ R, then also (a, c) ∈ R
+#### (a, b) ∈ R and (b, c) ∈ R, then also (a, c) ∈ R
 ```python
 R = {(1, 2), (2, 3), (1, 3)}
 ```
 
 # Additional requirements for search keys
 - The law of trichotomy
-#  The law of trichotomy states that for any two elements a and b from the comparison set, only one of three statements is true: a < b, a = b, or a > b. For example:
+#### The law of trichotomy states that for any two elements a and b from the comparison set, only one of three statements is true: a < b, a = b, or a > b. For example:
 
 ```python
 a = 5
@@ -51,7 +50,8 @@ else:
 	print("a > b")
 ```
 - Law of Transitivity
-# The law of transitivity states that if a > b and b > c, then also a > c. For example:
+
+#### The law of transitivity states that if a > b and b > c, then also a > c. For example:
 ```python
 a = 5
 b = 3
@@ -60,5 +60,18 @@ if a > b and b > c:
 	print("a > c")
 ```
 
-# Types of searches
+#### Types of searches
 
+- Internal search - all data is placed in RAM (direct key comparison)
+
+- External search - data is not placed in RAM (numeric key comparison)
+
+- Static search - content does not change, speeds up the search procedure
+
+- Dynamic search - content changes frequently to optimize the search algorithm and data set
+
+- Direct key comparison - equivalence relation
+
+- Use of numerical key characteristics - same as direct comparison, only more is less is also used
+
+- [Art of Computer Programming - Volume 3](https://imgur.com/a/gyqeLip)

@@ -9,5 +9,6 @@ My lab work and extracurricular assignments are located here
 # CS
 
 - [CS book](https://csdiy.wiki/en/)
+- [CS 61A](https://cs61a.org/)
 - [DSA](https://docs.google.com/document/d/1U-XBUSU1PMwn7DL_nks2nUmyPSiDDdSpmTF9Ec_7MSU/edit)
 - [SICP python](https://wizardforcel.gitbooks.io/sicp-in-python/content/index.html)
